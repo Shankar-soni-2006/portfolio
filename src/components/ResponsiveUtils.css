@@ -1,0 +1,58 @@
+/* Enhanced Responsive Breakpoints */
+
+/* Tablet Landscape */
+@media (max-width: 1024px) {
+  .hero-title { font-size: 3.5rem; }
+  .hero-subtitle { font-size: 1.4rem; }
+  .section-title { font-size: 2.8rem; }
+  .about-content { padding: 50px 40px; }
+  .navbar { width: 95%; padding: 12px 25px; }
+  .nav-links { gap: 20px; }
+}
+
+/* Tablet Portrait */
+@media (max-width: 768px) {
+  .hero { padding: 0 15px; }
+  .hero-title { font-size: 2.8rem; margin-bottom: 0.8rem; }
+  .hero-subtitle { font-size: 1.3rem; margin-bottom: 0.8rem; }
+  .hero-description { font-size: 1rem; margin-bottom: 2.5rem; }
+  .about { padding: 80px 0; }
+  .about-content { padding: 40px 30px; }
+  .section-title { font-size: 2.5rem; }
+  .about-text { font-size: 1rem; }
+  .navbar { width: 98%; padding: 10px 20px; }
+  .logo { font-size: 1.3rem; }
+  .nav-links { gap: 15px; }
+  .nav-link { font-size: 0.9rem; padding: 6px 12px; }
+  .skills-grid { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; }
+  .skill-card { padding: 20px 15px; }
+  .skill-name { font-size: 1rem; }
+  .projects-grid { grid-template-columns: 1fr; gap: 20px; }
+  .project-card { padding: 30px; }
+  .project-links { flex-direction: column; }
+  .contact-links { grid-template-columns: 1fr; gap: 15px; }
+  .contact-link { padding: 20px; }
+  .contact-description { font-size: 1.1rem; }
+  .image-content { flex-direction: column; text-align: center; gap: 40px; }
+  .profile-image { width: 250px; height: 250px; }
+  .image-text h3 { font-size: 1.5rem; }
+  .image-text p { font-size: 1.1rem; }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .hero-title { font-size: 2.2rem; }
+  .hero-subtitle { font-size: 1.1rem; }
+  .hero-description { font-size: 0.95rem; margin-bottom: 2rem; }
+  .social-links { gap: 12px; }
+  .social-link { width: 45px; height: 45px; }
+  .about { padding: 60px 0; }
+  .about-content { padding: 30px 20px; }
+  .section-title { font-size: 2rem; }
+  .about-text { font-size: 0.95rem; line-height: 1.7; }
+  .navbar { top: 10px; padding: 8px 15px; }
+  .logo { font-size: 1.2rem; }
+  .nav-links { gap: 10px; }
+  .nav-link { font-size: 0.8rem; padding: 5px 10px; }
+  .container { padding: 0 15px; }
+}

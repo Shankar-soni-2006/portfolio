@@ -1,0 +1,26 @@
+/* Force responsive navbar behavior */
+@media screen and (max-width: 768px) {
+  .navbar .nav-links {
+    display: none !important;
+  }
+  
+  .navbar .mobile-menu-toggle {
+    display: block !important;
+  }
+  
+  .nav-container {
+    justify-content: space-between !important;
+    gap: 0 !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    width: 98% !important;
+    padding: 8px 15px !important;
+  }
+  
+  .logo {
+    font-size: 1.2rem !important;
+  }
+}
