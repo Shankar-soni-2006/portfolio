@@ -3,7 +3,7 @@ import { FiMail, FiGithub, FiLinkedin } from 'react-icons/fi';
 import './Contact.css';
 
 const CONTACT_LINKS = [
-  { icon: FiMail, label: 'Email', value: 'shankarsoni7172@email.com', href: 'mailto:shankarsoni7172@email.com' },
+  { icon: FiMail, label: 'Email', value: 'shankarsoni7172@email.com', href: 'mailto:shankarsoni7172@gmail.com' },
   { icon: FiGithub, label: 'GitHub', value: 'https://github.com/Shankar-soni-2006', href: 'https://github.com/Shankar-soni-2006' },
   { icon: FiLinkedin, label: 'LinkedIn', value: 'https://www.linkedin.com/in/shankar-soni-82b246337l', href: 'https://www.linkedin.com/in/shankar-soni-82b246337' }
   
